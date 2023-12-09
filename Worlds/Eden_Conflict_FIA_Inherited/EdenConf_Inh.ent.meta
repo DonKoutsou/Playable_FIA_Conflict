@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9D6228057B0873E0}Worlds/Eden_Conflict_FIA_Inherited/EdenConf_Inh.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

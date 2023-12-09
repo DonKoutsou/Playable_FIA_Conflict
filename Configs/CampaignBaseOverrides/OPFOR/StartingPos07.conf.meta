@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A6965655CDDD9B3B}Configs/CampaignBaseOverrides/OPFOR/StartingPos07.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

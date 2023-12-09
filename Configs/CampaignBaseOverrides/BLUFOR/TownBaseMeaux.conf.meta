@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{825C74374C8363F8}Configs/CampaignBaseOverrides/TownBaseMeaux.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

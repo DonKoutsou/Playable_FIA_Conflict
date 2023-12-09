@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C200B19F89BA45C4}Worlds/Arland_Conflict_FIA_Inherited/ArlandConf_Inh.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

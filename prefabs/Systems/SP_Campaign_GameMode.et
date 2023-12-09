@@ -1,0 +1,17 @@
+SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ ID "5E7681157779EC7B"
+ coords 2504.506 139.009 2344.878
+ PlayerControllerPrefab "{A1AE127F16DD352E}Prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et"
+ m_eTestGameFlags 7
+ m_bAllowFactionChange 0
+ m_fAutoReloadTime 75
+ m_iControlPointsThreshold 5
+ m_iSuppliesReplenishThreshold 350
+ m_iQuickSuppliesReplenishThreshold 30
+ m_fQuickSuppliesReplenishMultiplier 6
+ m_iSuppliesArrivalInterval 1
+ m_iRegularSuppliesIncome 1
+ m_iRegularSuppliesIncomeBase 1
+ m_iRegularSuppliesIncomeExtra 1
+ m_iSpawnCost 20
+}

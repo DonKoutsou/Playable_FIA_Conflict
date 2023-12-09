@@ -1,0 +1,15 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "5690D9DBA5D97663"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5E9B4DD597F0065E}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{FE65E8C60C751352}prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et"
+   m_sAffiliatedFaction "FIA"
+  }
+  SCR_PlayerArsenalLoadout "{5E9B4DD58AB76CDC}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_base.et"
+   m_sAffiliatedFaction "FIA"
+  }
+ }
+}

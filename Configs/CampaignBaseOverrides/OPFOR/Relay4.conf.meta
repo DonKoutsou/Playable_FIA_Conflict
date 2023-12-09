@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{91D62ABD41B7FC09}Configs/CampaignBaseOverrides/OPFOR/Relay4.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

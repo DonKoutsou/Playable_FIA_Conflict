@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{35A4EF9D67651B22}Configs/CampaignBaseOverrides/TownBaseMontignac.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GameProject {
+ ID "PlayableFIAConflict"
+ GUID "5E871AC5C1BDF863"
+ TITLE "Playable_FIA_Conflict"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

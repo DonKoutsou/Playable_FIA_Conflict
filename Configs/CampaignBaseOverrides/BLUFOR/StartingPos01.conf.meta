@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7F669FC6A3F75DD5}Configs/CampaignBaseOverrides/StartingPos01.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

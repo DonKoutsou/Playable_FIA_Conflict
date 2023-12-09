@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C719B9423E21BEF3}Configs/CampaignBaseOverrides/OPFOR/SmallBaseMine.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

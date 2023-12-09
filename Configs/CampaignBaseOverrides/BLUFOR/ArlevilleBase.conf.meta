@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6180B6AC7ABF3DE1}Configs/CampaignBaseOverrides/ArlevilleBase.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8E245BAF81C22ED7}Configs/CampaignBaseOverrides/MilitaryBaseAirfield.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E709B78212387080}Configs/CampaignBaseOverrides/SmallBaseMaidensBay.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

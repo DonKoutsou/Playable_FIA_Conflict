@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A37632B17B4F11BF}Configs/CampaignBaseOverrides/MossHill.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

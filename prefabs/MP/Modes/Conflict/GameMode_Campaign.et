@@ -1,0 +1,88 @@
+SCR_GameModeCampaign : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_GameModeSFManager "{5EA105ECD4388559}" {
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{5EAD18A248901B32}" {
+   }
+  }
+ }
+ m_bAllowFactionChange 1
+ a_BaseOverrideInfo {
+  SP_CampaignBaseOverrideInfo "{5EB1043E661B775E}" : "{220B6774E64875C3}Configs/CampaignBaseOverrides/OPFOR/BeauregardBase.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6937C4DD}" : "{FAD00AC0B561FA82}Configs/CampaignBaseOverrides/OPFOR/Farm.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E686E2796}" : "{81BA65BF03218588}Configs/CampaignBaseOverrides/OPFOR/HQWest.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6B4CBAEF}" : "{30FF83F1F6DF391D}Configs/CampaignBaseOverrides/OPFOR/MainBaseSouth.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6A4275FE}" : "{AE33CB0318719172}Configs/CampaignBaseOverrides/OPFOR/MilitaryBaseLevie.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6D5EB6DB}" : "{91D62ABD41B7FC09}Configs/CampaignBaseOverrides/OPFOR/Relay4.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6DF3D12F}" : "{34C27C392007133C}Configs/CampaignBaseOverrides/OPFOR/SmallBaseBlackLake.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6C1DFEEB}" : "{2F6869474BEE839B}Configs/CampaignBaseOverrides/OPFOR/SmallBaseGoatbay.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6CB4F7E1}" : "{C719B9423E21BEF3}Configs/CampaignBaseOverrides/OPFOR/SmallBaseMine.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6F395759}" : "{80EB85C24306ACDD}Configs/CampaignBaseOverrides/OPFOR/SmallBasePennantsPass.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6E4BDD20}" : "{F87E7F1672501534}Configs/CampaignBaseOverrides/OPFOR/StartingPos04.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E6EB77003}" : "{0C76388E7F8D7D40}Configs/CampaignBaseOverrides/OPFOR/StartingPos05.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E1080AFC9}" : "{A6965655CDDD9B3B}Configs/CampaignBaseOverrides/OPFOR/StartingPos07.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E1244E305}" : "{ACE145055AD4D92E}Configs/CampaignBaseOverrides/OPFOR/TownBaseDuras.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E12E8EA18}" : "{767FCAFCBCE5F5EF}Configs/CampaignBaseOverrides/OPFOR/TownBaseLaruns.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E151146F2}" : "{65FFA52B706947E4}Configs/CampaignBaseOverrides/OPFOR/TownBaseLevie.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E17653011}" : "{D3159D11324AAA01}Configs/CampaignBaseOverrides/OPFOR/TownBaseRegina.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E17FB1317}" : "{D12CE034D185086D}Configs/CampaignBaseOverrides/OPFOR/TownBaseVernon.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E01A74D99}" : "{894AC6ADC93A04EE}Configs/CampaignBaseOverrides/OPFOR/AirportNorth.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E00AB484A}" : "{6180B6AC7ABF3DE1}Configs/CampaignBaseOverrides/BLUFOR/ArlevilleBase.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E03893AD7}" : "{6088BB25FF52F747}Configs/CampaignBaseOverrides/BLUFOR/HQEast.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E02F88A1D}" : "{5EBCEB15FD34A511}Configs/CampaignBaseOverrides/BLUFOR/MainBaseNorth.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E052E2CDF}" : "{8E245BAF81C22ED7}Configs/CampaignBaseOverrides/BLUFOR/MilitaryBaseAirfield.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E0474842E}" : "{A561F17D39CEF75B}Configs/CampaignBaseOverrides/BLUFOR/MilitaryHospital.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E04879E12}" : "{A37632B17B4F11BF}Configs/CampaignBaseOverrides/BLUFOR/MossHill.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E07328A38}" : "{E709B78212387080}Configs/CampaignBaseOverrides/BLUFOR/SmallBaseMaidensBay.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E06474C50}" : "{7F669FC6A3F75DD5}Configs/CampaignBaseOverrides/BLUFOR/StartingPos01.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E06C73ACA}" : "{36BE8AD9D13129BF}Configs/CampaignBaseOverrides/BLUFOR/StartingPos06.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E0945D0BE}" : "{A50EA0E734BDC16B}Configs/CampaignBaseOverrides/BLUFOR/StartingPos08.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E09992162}" : "{B8AA0F5B56A11ED9}Configs/CampaignBaseOverrides/BLUFOR/StartingPos11.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E08CEBBE4}" : "{E6422618E92C90D6}Configs/CampaignBaseOverrides/BLUFOR/StartingPos12.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E0BBBCA06}" : "{E89FBFC2199D6E42}Configs/CampaignBaseOverrides/BLUFOR/TownBaseGravette.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E0ADF5B9F}" : "{825C74374C8363F8}Configs/CampaignBaseOverrides/BLUFOR/TownBaseMeaux.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E0D0FC994}" : "{35A4EF9D67651B22}Configs/CampaignBaseOverrides/BLUFOR/TownBaseMontignac.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB1043E0C0FF7BC}" : "{38EA12FECF35D522}Configs/CampaignBaseOverrides/BLUFOR/TownBaseTyrone.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB70CDF66C2C506}" : "{3D7521BBAE9768EB}Configs/CampaignBaseOverrides/INDFOR/ShepardsPont.conf" {
+  }
+  SP_CampaignBaseOverrideInfo "{5EB72AC379784D7B}" : "{EA209EE71A8B27F7}Configs/CampaignBaseOverrides/INDFOR/MajorBaseMorton.conf" {
+  }
+ }
+}

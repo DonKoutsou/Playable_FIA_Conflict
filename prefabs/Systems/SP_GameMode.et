@@ -1,0 +1,95 @@
+SP_GameMode {
+ ID "5DC8E7DF1BAF44A7"
+ components {
+  SignalsManagerComponent "{5DC8E7D926128AA3}" {
+  }
+  SCR_CallsignManagerComponent "{5DC8E7D93C51DF7F}" {
+  }
+  SCR_CompositionSlotManagerComponent "{5DC8E7D930E053A9}" {
+  }
+  SCR_DestructionManagerComponent "{5DC8E7D934590542}" {
+  }
+  SCR_EntityCatalogManagerComponent "{5DC8E7D94849D925}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalog "{5E709DB7C663A019}" : "{B80293331FB7BFCF}Configs/EntityCatalog/FactionLess/EntityCatalog_SupplyContainerItems.conf" {
+    }
+   }
+  }
+  SCR_GameModeHealthSettings "{5DC8E7D95C0C2D67}" {
+   m_bPermitUnconsciousness 1
+  }
+  SCR_GameOverScreenManagerComponent "{5DC8E7D96AC61234}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{5DC8E7DE92B37D05}" : "{651583FFFB7FC765}Configs/GameOverScreen/GameOverScreensConfig.conf" {
+    m_aGameOverScreens {
+     SCR_BaseGameOverScreenInfo "{5DC8E7DE9CEB2F9B}" {
+      m_GameOverScreenId DEATH
+     }
+    }
+   }
+  }
+  SCR_GroupsManagerComponent "{5DC8E7DE972D4980}" {
+   m_sDefaultGroupPrefab "{8B4D49A9F324E7D5}prefabs/Groups/PlayableGroup.et"
+   m_iPlayableGroupFrequencyOffset 500
+  }
+  SCR_HintManagerComponent "{5DC8E7DEA50D6698}" {
+  }
+  SCR_InitWeatherComponent "{5DC8E7DED1B7B435}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_MapConfigComponent "{5DC8E7DEE1884961}" {
+  }
+  SCR_MapMarkerManagerComponent "{5E611629A7E12482}" {
+  }
+  SCR_NametagConfigComponent "{5DC8E7DEE754AF48}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_NotificationsComponent "{5DF92432B23832AC}" {
+  }
+  SCR_PlayersRestrictionZoneManagerComponent "{5DC8E7DE01ACC98C}" {
+  }
+  SCR_PossessingManagerComponent "{5DC8E7DE046CF19F}" {
+  }
+  SCR_RadialMenuGameModeComponent "{5DC8E7DE57A4F5D5}" {
+   m_Menu SCR_RadialMenu "{5DC8E7DE60BB4E7B}" : "{D9448EF097CB0ACB}Configs/HUD/RadialMenu/GlobalRadialMenu.conf" {
+   }
+  }
+  SCR_RadialMenuItemsComponent "{5DC8E7DE63782FCD}" {
+   m_MenuController SCR_RadialMenuController "{5DC8E7DE7D1EF9AA}" {
+    m_RMControls SCR_RadialMenuControllerInputs "{5DC8E7DE7459FA62}" {
+     m_sControllerContext "WeaponSelectionContext"
+     m_sOpenAction "Inventory_WeaponSwitchingRadial"
+    }
+   }
+  }
+  SCR_RespawnSystemComponent "{5DC8E7DC1AEF9B87}" {
+   components {
+    SCR_FreeSpawnHandlerComponent "{5DD6DD6E00EC3A45}" {
+    }
+    SCR_PossessSpawnHandlerComponent "{5DD6DD6E1846D414}" {
+    }
+    SCR_SpawnPointSpawnHandlerComponent "{5DD6DD6E1DEC1E56}" {
+    }
+   }
+   m_SpawnLogic SCR_MenuSpawnLogic "{5DD6E5249CE50C2A}" {
+    m_sForcedFaction ""
+   }
+  }
+  SCR_SpawnerAIGroupManagerComponent "{5DEAF6D7C9F77D88}" {
+  }
+  SCR_SupportStationManagerComponent "{5E6A7958A7084609}" {
+  }
+  SCR_VotingManagerComponent "{5E112C4A070FAD30}" {
+   m_aVotingTemplates {
+    SCR_VotingEditorIn "{5E112C4A538B0A69}" : "{9DE543906BEAB993}Configs/Voting/EditorIn.conf" {
+    }
+   }
+  }
+  RplComponent "{5DC8E7DFE3D28994}" {
+   Streamable Disabled
+  }
+ }
+ coords 2504.506 139.009 2344.878
+ PlayerControllerPrefab "{A1AE127F16DD352E}prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et"
+ {
+ }
+}

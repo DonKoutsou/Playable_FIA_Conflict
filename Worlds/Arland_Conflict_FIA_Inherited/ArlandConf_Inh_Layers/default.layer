@@ -1,0 +1,236 @@
+GenericEntity HQFIA : "{1391CE8C0E255636}prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  BaseRadioComponent "{5C669673C2A82A2B}" {
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 800
+    }
+   }
+  }
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bCanBeHQ 1
+   m_bDisableWhenUnusedAsHQ 0
+   m_sBaseName "#AR-Campaign_MapLocation_MOB"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   Enabled 0
+  }
+  SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+   m_iSupplies 3000
+   m_iSuppliesMax 3000
+   m_fOperationalRadius 50.5
+  }
+  SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+   "faction affiliation" "FIA"
+  }
+ }
+ coords 3503.583 2.907 1517.51
+}
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ coords 2327.489 91.179 1319.278
+ {
+  GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   coords 0 0 0
+   {
+    $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     Slot1 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_USSR_01.et"
+       }
+      }
+      coords -8.699 0.166 -46.014
+      angleY -150.774
+     }
+     Slot3 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{7C20041DA3207191}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_USSR_01.et"
+       }
+      }
+      coords -9.806 -0.064 -59.313
+      angleY -58.423
+     }
+     Slot5 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et"
+       }
+      }
+      coords -31.503 -0.834 -62.267
+      angleY 114.315
+     }
+     Slot6 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et"
+       }
+      }
+      coords -1181.361 -90.128 1961.582
+      angleY -3.138
+     }
+     Slot7 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et"
+       }
+      }
+      coords 36.543 5.811 -37.649
+      angleY -93.138
+     }
+     Slot8 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et"
+       }
+      }
+      coords 390.934 -13.322 377.52
+      angleY -152.453
+     }
+     Slot9 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_US_01.et"
+       }
+      }
+      coords 928.556 -84.716 1509.214
+      angleY 29.581
+     }
+     Slot10 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{0AF1C4C9C7EF05F2}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_US_01.et"
+       }
+      }
+      coords -1135.022 -90.182 1968.385
+      angleY 86.306
+     }
+     Slot11 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{73604060A04CBB85}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_USSR_01.et"
+       }
+      }
+      coords -28.558 -1.532 -33.998
+      angleY -60.417
+     }
+     Slot12 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_US_01.et"
+       }
+      }
+      coords -91.124 -37.045 1551.365
+      angleY -31.82
+     }
+     Slot14 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{FB26A800AC01D85A}prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_FIA_01.et"
+       }
+      }
+      coords -947.193 -80.256 505.29
+      angleY 29.581
+     }
+     Slot15 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{FB26A800AC01D85A}prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_FIA_01.et"
+       }
+      }
+      coords 1212.308 -88.566 163.347
+      angleY 114.667
+     }
+     Slot16 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et"
+       }
+      }
+      coords -1329.436 -53.19 1518.833
+      angleY 60.661
+     }
+     {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{69131FD53AF6C044}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyStorage_S_US_01.et"
+       }
+      }
+      coords 930.44 -89.063 1569.647
+      angleY -124.479
+     }
+     Slot19 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_US_01.et"
+       }
+      }
+      coords 950.522 -89.179 1542.769
+      angleY -34.82
+     }
+     Slot20 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et"
+       }
+      }
+      coords 930.04 -88.918 1558.055
+      angleY 57.336
+     }
+     Slot21 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{258D0520BA0FC415}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_04.et"
+       }
+      }
+      coords 919.567 -88.897 1559.245
+      angleY -124.479
+     }
+    }
+   }
+  }
+ }
+}
+$grp GameEntity : "{D9842C11742C00CF}prefabs/Props/Civilian/Fireplace_01.et" {
+ {
+  coords 1162.714 1.156 3275.851
+ }
+ {
+  coords 931.199 38.865 2884.236
+ }
+ {
+  coords 1405.6 10.903 1867.389
+ }
+ {
+  coords 2370.477 66 1712.594
+ }
+ {
+  coords 2714.672 77.531 1681.254
+ }
+ {
+  coords 2528.567 143.937 2266.074
+ }
+ {
+  coords 1596.534 8.813 1992.422
+  angleY -43.607
+ }
+ {
+  coords 1403.415 35.976 2375.727
+ }
+ {
+  coords 2199.236 53.406 2892.838
+ }
+ {
+  coords 2221.948 53.309 2871.057
+ }
+ {
+  coords 2904.128 30.972 3065.12
+ }
+ {
+  coords 2411.784 2.692 3247.653
+ }
+ {
+  coords 1938.482 57.339 3303.317
+ }
+}
