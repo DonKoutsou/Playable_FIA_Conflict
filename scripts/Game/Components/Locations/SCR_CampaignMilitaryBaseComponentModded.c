@@ -9,6 +9,9 @@ modded class SCR_CampaignMilitaryBaseComponent : SCR_MilitaryBaseComponent
 	[RplProp(onRplName: "OnHasSignalChanged")]
 	protected SCR_ECampaignHQRadioComms m_eRadioCoverageINFOR = SCR_ECampaignHQRadioComms.NONE;
 	
+	[Attribute("", UIWidgets.Coords, params: "inf inf inf purpose=coords space=world", desc: "")]
+	vector m_BasePossitionOverride;	
+	
 	[Attribute("", UIWidgets.ResourceNamePicker, "Override HQ composition in small bases", "et")]
 	private ResourceName m_OverrideBaseBuildingHQ;
 	
@@ -18,6 +21,8 @@ modded class SCR_CampaignMilitaryBaseComponent : SCR_MilitaryBaseComponent
 	SCR_CampaignFaction INDFOR;
 	
 	protected ref map <Faction, SCR_ECampaignHQRadioComms > m_eFactionRadioCoverage;
+	
+	
 	
 	
 	string GetAreaDesc()
@@ -68,9 +73,14 @@ modded class SCR_CampaignMilitaryBaseComponent : SCR_MilitaryBaseComponent
 				else
 					buildingPrefab = campaign.GetFactionByEnum(SCR_ECampaignFaction.OPFOR).GetBuildingPrefab(EEditableEntityLabel.SERVICE_HQ);
 			}
-
+			vector pos;
+			if (m_BasePossitionOverride)
+				pos = m_BasePossitionOverride;
+			else
+				pos = GetOwner().GetOrigin();
+			
 			if (buildingPrefab)
-				GetGame().GetCallqueue().CallLater(SpawnBuilding, 1000, false, buildingPrefab, GetOwner().GetOrigin(), GetOwner().GetYawPitchRoll(), true);	// Delay so we don't spawn stuff during init
+				GetGame().GetCallqueue().CallLater(SpawnBuilding, 1000, false, buildingPrefab, pos, GetOwner().GetYawPitchRoll(), true);	// Delay so we don't spawn stuff during init
 		}
 	}
 	override void SetHQRadioConverage(notnull SCR_Faction faction, SCR_ECampaignHQRadioComms coverage)
