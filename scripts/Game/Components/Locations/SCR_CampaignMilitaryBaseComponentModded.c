@@ -17,6 +17,9 @@ modded class SCR_CampaignMilitaryBaseComponent : SCR_MilitaryBaseComponent
 	
 	[Attribute(desc: "Description of area for event keeping purposes")]
 	string m_sAreaDesc;
+	
+	[Attribute(defvalue : "200", desc: "Description of area for event keeping purposes")]
+	int m_iBasePatrolInfluance;
 
 	SCR_CampaignFaction INDFOR;
 	
@@ -74,7 +77,7 @@ modded class SCR_CampaignMilitaryBaseComponent : SCR_MilitaryBaseComponent
 					buildingPrefab = campaign.GetFactionByEnum(SCR_ECampaignFaction.OPFOR).GetBuildingPrefab(EEditableEntityLabel.SERVICE_HQ);
 			}
 			vector pos;
-			if (m_BasePossitionOverride)
+			if (m_BasePossitionOverride > vector.Zero)
 				pos = m_BasePossitionOverride;
 			else
 				pos = GetOwner().GetOrigin();

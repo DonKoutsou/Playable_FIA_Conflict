@@ -1,6 +1,8 @@
 
 modded class SCR_CampaignMilitaryBaseManager
 {
+	
+	
 	override void ProcessRemnantsPresence()
 	{
 		SCR_AmbientPatrolManager manager = SCR_AmbientPatrolManager.GetInstance();

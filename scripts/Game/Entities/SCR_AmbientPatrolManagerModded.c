@@ -1,6 +1,6 @@
 modded class SCR_AmbientPatrolManager
 {
-	int m_iBasePatrolInfluance;
+
 	//------------------------------------------------------------------------------------------------
 	override protected void ProcessSpawnpoint(int spawnpointIndex)
 	{
@@ -144,23 +144,19 @@ modded class SCR_AmbientPatrolManager
 				dist = dist2;
 				affcomp.SetAffiliatedFactionByKey( base.GetFaction().GetFactionKey() );
 			}
-			if (dist < m_iBasePatrolInfluance)
+			if (dist < base.m_iBasePatrolInfluance)
 			{
 				factionupdated = true;
 			}
 		}
 		if (!factionupdated)
 		{
-			if (Math.RandomInt(0,1) == 1 && dist < m_iBasePatrolInfluance * 0.5)
-				return;
 			affcomp.SetAffiliatedFactionByKey( Camp.GetFactionByEnum(SCR_ECampaignFaction.INDFOR).GetFactionKey() );
 		}
 	}
 	override void EOnInit(IEntity owner)
 	{
 		super.EOnInit(owner);
-		SCR_GameModeCampaign camp = SCR_GameModeCampaign.Cast(GetGame().GetGameMode());
-		m_iBasePatrolInfluance = camp.GetBasePatrolInfluance();
 	}
 	
 }
