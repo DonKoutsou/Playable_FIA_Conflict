@@ -325,7 +325,14 @@ modded class SCR_CampaignMilitaryBaseComponent : SCR_MilitaryBaseComponent
 	//------------------------------------------------------------------------------------------------
 	override void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
+	}
+	override void EOnInit(IEntity owner)
+	{
+		super.EOnInit(owner);
 		SCR_CampaignFactionManager factman = SCR_CampaignFactionManager.Cast(GetGame().GetFactionManager());
+		if (!factman)
+			return;
 		array < Faction > factions = {};
 		factman.GetFactionsList(factions);
 		m_eFactionRadioCoverage = new map <Faction, SCR_ECampaignHQRadioComms> ();
@@ -333,11 +340,6 @@ modded class SCR_CampaignMilitaryBaseComponent : SCR_MilitaryBaseComponent
 		{
 			m_eFactionRadioCoverage.Insert(faction, 0);
 		}
-		super.OnPostInit(owner);
-	}
-	override void EOnInit(IEntity owner)
-	{
-		super.EOnInit(owner);
 	}
 };
 modded class SCR_MapCampaignUI
